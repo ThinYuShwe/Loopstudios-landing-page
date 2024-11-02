@@ -255,7 +255,7 @@ button:hover {
   .hero-section {
     background-image: url(image-hero-dekstop.jpg);
   }
-  
+
   .dropdownmenu {
     display: flex;
   }
@@ -313,11 +313,9 @@ button:hover {
   }
 
   .creations-gallery {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem 3.8rem;
   }
 
   .creation-image-desktop {
